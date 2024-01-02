@@ -88,7 +88,7 @@ function App() {
         {showAddNew === 'yep' && <AddNewTodo setShowAddNew={setShowAddNew} handleAddTodo={handleAddTodo}/>}
       </div>
       <button id='light-dark' onClick={handleTheme}>
-        <img id='bulb' src={light === 'light' ? './light.svg' : './dark.svg'}/>
+        <img id='bulb' src={light === 'light' ? 'light.svg' : 'dark.svg'}/>
       </button>
     </div>
   );
